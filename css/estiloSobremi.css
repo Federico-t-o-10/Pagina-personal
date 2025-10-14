@@ -20,7 +20,7 @@ header{
  width: 100%;
  border-bottom: 1px solid #9c9c9c;
 }
-header h2{
+header h1{
     padding-left: 20px;
     align-self: center;
 }
@@ -29,11 +29,6 @@ a{
     color: #ffffff;
     font-weight: 500;
     font-size: 1.2em;
-}
-a:hover{
-    color: #767676;
-    border-color: #767676;
-    transition: 0.3s;
 }
 ul :hover{
     transition: 0.3s;
@@ -52,53 +47,6 @@ header ul{
     gap:10px;
     overflow: auto;
 }
-figure{
-
-    width: 50%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-top: 61px;
-}
-figure img{
-
-    width: 100%;
-    aspect-ratio: 593/675;
-    object-fit: cover;
-    height: 100%;
-}
-section{
-    margin-top: 60px;
-    padding-top: 1.5em;;
-    padding-left: 6em;
-    width: 50%;
-    height: auto;
-    justify-content: center;
-    gap: 20px;
-
-}
-section h1{
-    width: 100%;
-    height: auto;
-    font-size: 6em;
-    display: inline;
-    margin: 0;
-    text-align: center;
-}
-.explorar{
-    margin-left: 5em;
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    font-size: 1.5em;
-}
-html, body, main{
-    height: 100%;
-    height: 100vh;
-}
 @media (max-width: 768px){
     main{
         flex-direction: column;
@@ -113,7 +61,7 @@ html, body, main{
         width: 100%;
         padding: 0;
     }
-    header,h2,ul{
+    header,h1,ul{
          font-size: 1em;
          justify-content: center;
          padding: 0; 
