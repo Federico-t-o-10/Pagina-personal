@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1f2020;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+}
+@view-transition{
+    navigation: auto;
+}
+::view-transition-group(*) {
+    animation-duration: 0.2s;
+}
+header {
+    display: flex;
+    max-width: 100%;
+    height: 60px;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+header h2 {
+    padding-left: 20px;
+    align-self: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: #767676;
+    border-color: #767676;
+    transition: 0.3s;
+}
+
+ul :hover {
+    transition: 0.3s;
+    color: #767676;
+    cursor: pointer;
+}
+
+header ul {
+    transition: 0.3s;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 0;
+    gap: 10px;
+    overflow: auto;
+}
